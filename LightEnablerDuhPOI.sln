@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{93a8fcdc-2029-4c2c-9fc1-927e700e0941}") = "LightEnablerDuhPOI", "LightEnablerDuhPOI.csproj", "{5a381d8c-2c39-4bef-b669-20e83cca4466}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5a381d8c-2c39-4bef-b669-20e83cca4466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5a381d8c-2c39-4bef-b669-20e83cca4466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5a381d8c-2c39-4bef-b669-20e83cca4466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5a381d8c-2c39-4bef-b669-20e83cca4466}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F914B8CE-2A2D-4407-85CB-41ABF5BD6801}
+	EndGlobalSection
+EndGlobal
