@@ -15,16 +15,15 @@ public class OcbPrettyGrass : IModApi
     [HarmonyPatch("GetBlockActivationCommands")]
     public class BlockLight_GetBlockActivationCommands
     {
-        static bool Prefix(
+        static void Postfix(
             WorldBase _world,
-            BlockActivationCommand[] ___cmds,
+            // BlockActivationCommand[] ___cmds,
             ref BlockActivationCommand[] __result)
         {
             // Use regular code for editor
-            if (_world.IsEditor()) return true;
-            ___cmds[0].enabled = true;
-            __result = ___cmds;
-            return false;
+            if (_world.IsEditor()) return;
+            if (__result.Length == 0) return;
+            __result[0].enabled = true;
         }
     }
 
