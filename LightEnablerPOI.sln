@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{93a8fcdc-2029-4c2c-9fc1-927e700e0941}") = "LightEnablerDuhPOI", "LightEnablerDuhPOI.csproj", "{5a381d8c-2c39-4bef-b669-20e83cca4466}"
+Project("{93a8fcdc-2029-4c2c-9fc1-927e700e0941}") = "LightEnablerPOI", "LightEnablerPOI.csproj", "{5a381d8c-2c39-4bef-b669-20e83cca4466}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -14,6 +14,10 @@ Simply [download here from GitHub][2] and put into your A20 Mods folder:
 
 ## Changelog
 
+### Version 0.1.1
+
+- Fix and improve MSVC project files
+
 ### Version 0.1.0
 
 - Initial version
