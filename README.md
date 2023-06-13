@@ -1,4 +1,4 @@
-# OCB Light Enabler POI Mod - 7 Days to Die (A20) Addon
+# OCB Light Enabler POI Mod - 7 Days to Die (A21) Addon
 
 A silly mod to allow anyone to toggle any poi light ¯\\_(ツ)_/¯
 
@@ -13,6 +13,10 @@ Simply [download here from GitHub][2] and put into your A20 Mods folder:
 - https://github.com/OCB7D2D/OcbLightEnablerPOI/archive/master.zip (master branch)
 
 ## Changelog
+
+### Version 0.2.0
+
+- Update compatibility for 7D2D A21.0(b313)
 
 ### Version 0.1.1
 

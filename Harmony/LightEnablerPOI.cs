@@ -1,14 +1,14 @@
 ﻿using System.Reflection;
 using HarmonyLib;
-using UnityEngine;
 
 public class OcbPrettyGrass : IModApi
 {
 
     public void InitMod(Mod mod)
     {
-        Debug.Log("Loading OCB POI Light Enabler Patch Duh: " + GetType().ToString());
-        new Harmony(GetType().ToString()).PatchAll(mod.MainAssembly);
+        Log.Out("OCB Harmony Patch: " + GetType().ToString());
+        Harmony harmony = new Harmony(GetType().ToString());
+        harmony.PatchAll(Assembly.GetExecutingAssembly());
     }
 
     [HarmonyPatch(typeof(BlockLight))]
@@ -55,14 +55,14 @@ public class OcbPrettyGrass : IModApi
 
         static bool Prefix(
             BlockLight __instance,
-            int _indexInBlockActivationCommands,
+            string _commandName,
             WorldBase _world,
             int _cIdx,
             Vector3i _blockPos,
             BlockValue _blockValue,
             ref bool __result)
         {
-            if (_indexInBlockActivationCommands == 0)
+            if (_commandName == "light")
             {
                 FnUpdateLightState.Invoke(__instance, new object[] { _world, _cIdx, _blockPos, _blockValue, true, false });
                 __result = true;

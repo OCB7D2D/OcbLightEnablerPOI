@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="OcbLightEnablerPOI" />
-		<Description value="A silly mod to allow anyone to toggle any POI light." />
-		<Website value="https://github.com/OCB7D2D/OcbLightEnablerPOI" />
-		<Author value="ocbMaurice" />
-		<Version value="0.1.1" compat="A20"/>
-	</ModInfo>
+	<Name value="OcbLightEnablerPOI" />
+	<DisplayName value="OCB Light Enabler for POIs" />
+	<Description value="A silly mod to allow anyone to toggle any POI light." />
+	<Website value="https://github.com/OCB7D2D/OcbLightEnablerPOI" />
+	<Author value="ocbMaurice" />
+	<Version value="0.2.0" />
 </xml>
