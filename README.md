@@ -1,4 +1,4 @@
-# OCB Light Enabler POI Mod - 7 Days to Die (V2.0) Addon
+# OCB Light Enabler POI Mod - 7 Days to Die (V2.1) Addon
 
 A silly mod to allow anyone to toggle any poi light ¯\\_(ツ)_/¯
 
